@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #121212;
+  width: 100%;
+}
+.navbar i {
+  font-size: 1.5rem;
+  color: #2a2a2a;
+  transition: transform 0.3s;
+}
+.navbar i:hover {
+  transform: scale(1.1);
+}
+.card {
+  background: linear-gradient(#373737, #0c0c0c);
+  border: none;
+  border-radius: 20px;
+  height: 30vh;
+  position: relative;
+  left: 0.5vh;
+  text-transform: capitalize;
+  margin: 1vh 0;
+}
+.card img {
+  width: 130%;
+  border-radius: 5px;
+  object-fit: cover;
+  height: 130px;
+  position: relative;
+  left: -1.5vh;
+  padding: 0;
+  border: 2vh solid transparent;
+}
+.card p {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  margin: 3px 0;
+  text-transform: capitalize;
+}
+.card .price {
+  font-size: 11px;
+  font-weight: bold;
+  color: #FFD700;
+}
+.rating {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 6px 12px;
+  border-radius: 10px;
+  color: #FFD700;
+  font-weight: bold;
+  font-size: 14px;
+  z-index: 1;
+}
+.arrow-btn {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  width: 5vh;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  transition: background 0.3s;
+}
+.arrow-btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #121212;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 9999;
+}
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  transition: transform 0.3s;
+}
+.bottom-nav a:hover {
+  transform: scale(1.1);
+}
+.bottom-nav i {
+  color: #6b6b6b;
+}
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  transition: transform 0.3s;
+}
+.bottom-nav a:hover {
+  transform: scale(1.1);
+}
+.carousel-item {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 5vh;
+  left: 0.5vh;
+  padding: 3vh;
+  top: 1vh;
+}
+.carousel-caption {
+  bottom: 20px;
+}
+.carousel-caption h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.active i {
+  text-shadow: 0 0 0.5vh rgba(255, 255, 255, 0.686);
+  color: #ffffff;
+}
